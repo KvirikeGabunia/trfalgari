@@ -42,3 +42,38 @@ nav button:hover {
     color: #FFF;
     padding: 10px 15px;
 }
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+p {
+    color: #7D7987;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.headerDiv > div {
+    all:unset;
+    width: 30%;
+}
+.headerDiv > img {
+    width: 30%;
+}
+.headerDiv {
+    margin: 80px 10%;
+}
+.roundButton {
+    background-color: #458FF6;
+    padding: 15px 25px;
+    border: none;
+    color: #FFF;
+    border-radius: 55px;
+}
+.roundButton:hover {
+    background-color: #fff;
+    border: solid 1px #458FF6;
+    color: #458FF6;
+    transition-duration: 0.5s;
+}
